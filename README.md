@@ -4,7 +4,7 @@ KindfulUser Oauth2 provides an easy way to provide secure sites for donors to lo
 
 If your looking to integrate with the non profit organization itself to insert client and transaction data into their account, the you should use the KindfulAdmin Oauth2 gem
 
-
+Additional documentation on getting your access keys generated can be found here https://developer.kindful.com/docs/oauth-user-view
 ## Usecases
 
 * Provide access to a website to active members
@@ -42,7 +42,7 @@ is called and provides the below information
 
 
 ```json
-    "raw_info": {
+    {
         "id": 123,
         "name": "John Doe",
         "email": "john@test.com"
