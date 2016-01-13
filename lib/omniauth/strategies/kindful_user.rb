@@ -8,7 +8,7 @@ module OmniAuth
       option :client_options, {
         # the site subdomain is specific to the kindful client your working with.   
         :site          => 'https://client-subdomain.kindful.com',
-        :authorize_url => '/oauth2/authenticate',
+        :authorize_url => '/oauth2/authorize',
         :token_url     => '/oauth2/token'
       }
       

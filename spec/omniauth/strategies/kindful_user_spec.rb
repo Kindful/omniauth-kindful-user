@@ -13,7 +13,7 @@ describe OmniAuth::Strategies::KindfulUser do
     end
 
     it 'should have the correct authorization url' do
-      expect(subject.client.options[:authorize_url]).to eq("/oauth2/authenticate")
+      expect(subject.client.options[:authorize_url]).to eq("/oauth2/authorize")
     end
 
     it 'should have the correct token url' do
