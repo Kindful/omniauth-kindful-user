@@ -43,7 +43,7 @@ is called and provides the below information
 
 ```json
     "raw_info": {
-        "id": "123,
+        "id": 123,
         "name": "John Doe",
         "email": "john@test.com"
     }
