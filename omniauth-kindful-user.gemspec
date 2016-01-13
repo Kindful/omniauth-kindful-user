@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   post_install_string =<<END
 Remember to specify 
-    :provider_ignores_state => true
-When you set up your Kindful User OmniAuth provider.
+    client_options: {site: "https://example-client.kindful.com}
+with the correct subdomain for the client your working with
 END
   s.post_install_message = post_install_string
 
